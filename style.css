@@ -1,0 +1,59 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+div.content{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255,255,255,0.8);
+}
+
+td{
+    font-family: calibri;
+    font-size: 22px;
+}
+
+table{
+    margin: 15px;
+}
+
+th{
+    text-align: left;
+    font-family: calibri;
+    font-size: 25px;
+}
+
+h1{
+    margin: 15px;
+    font-family: calibri;
+    color: darkorange;
+}
+
+a{
+    color: darkorange;
+}
+
+h2{
+    color: darkorange;
+    font-family: calibri;
+    font-size: 25px;
+    margin: 15px;
+}
+
+p{
+    margin: 15px;
+    font-family: calibri;
+    font-size: 22px;
+}
+
+p.footer{
+    margin: 15px;
+    font-family: calibri;
+    font-size: 15px;
+}
+
+a.back{
+    float: left;
+}

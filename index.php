@@ -11,6 +11,10 @@
 </head>
 
 <body>
+<div class="formulier">
+    <a class='post' href="submit.php">Voeg uw eigen post toe</a>
+</div>
+    
 <div class="content">
     <h1>My Reddit</h1>
     
@@ -21,7 +25,7 @@
     
 <?php
 
-  $query = "select * from posts";
+  $query = "SELECT * FROM posts ORDER BY id DESC";
   
   $result = mysqli_query($connection, $query);
  
